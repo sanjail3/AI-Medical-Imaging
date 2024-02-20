@@ -20,7 +20,7 @@ patient_id=list(df['PatientID'])
 
 def predict():
     st.title("Diabetic Retinopathy Report Tool")
-    st.write("Please provide the necessary information and upload an image.")
+    st.write("Please upload an image.")
 
     # Add user input fields
     id = st.text_input("ID")
